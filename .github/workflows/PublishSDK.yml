@@ -2,8 +2,7 @@ name: Publish Java SDK
 
 on:
   push:
-    branches: [ master ]
-    paths: spec/**
+    branches: [ postman-sync ]
   workflow_dispatch:
 
 jobs:
